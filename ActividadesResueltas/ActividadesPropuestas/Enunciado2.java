@@ -2,7 +2,7 @@ package ActividadesPropuestas;
 
 import java.util.Scanner;
 
-public class Actividad2 {
+public class Enunciado2 {
 
     //En una tienda, se requiere calcular el porcentaje de descuento de un producto, por lo que debes solicitar el precio
     //del producto y el porcentaje a aplicar, calcular el precio total.

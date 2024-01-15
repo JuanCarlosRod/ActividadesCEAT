@@ -2,7 +2,7 @@ package ActividadesPropuestas;
 
 import java.util.Scanner;
 
-public class Actividad3 {
+public class Enunciado3 {
 
     //Teniendo como base, que el 100% de un colegio esta formado por todos los alumnos,
     // solicita cuantas niñas y cuantos niños hay, e indica el porcentaje de cada uno.

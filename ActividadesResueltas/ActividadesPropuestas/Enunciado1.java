@@ -2,7 +2,7 @@ package ActividadesPropuestas;
 
 import java.util.Scanner;
 
-public class Actividad1 {
+public class Enunciado1 {
 
     //Solicita al usuario que ingrese 2 números enteros
     // y luego muestra la suma de esos 2 números con un mensaje "El resultado de la suma de a + b es ".
