@@ -20,5 +20,17 @@ public class Enunciado1 {
         resut = num1 + num2;
 
         System.out.println("El resultado de la suma es: " + resut);
+
+        //Optimizado
+
+        //int resut;
+
+        //System.out.print("Introduzca el valor del primer número -> ");
+        //reult = sc.nextInt();
+
+        //System.out.println("Introduzca el valor del segundo número -> ");
+        //result =resutl + sc.nextInt();
+
+        //System.out.println("El resultado de la suma es: " + resut);
     }
 }

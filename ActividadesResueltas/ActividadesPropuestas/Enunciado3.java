@@ -9,22 +9,22 @@ public class Enunciado3 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int numNiños, numNiñas, alumnTotal;
-        double porcentajeNiños, porcentajeNiñas;
+        int numNinos, numNinas, alumnTotal;
+        double porcentajeNinos, porcentajeNinas;
 
         System.out.print("Introduce el numero de niños que hay -> ");
-        numNiños = sc.nextInt();
+        numNinos = sc.nextInt();
 
         System.out.print("Introduce el número de niñas que hay -> ");
-        numNiñas = sc.nextInt();
+        numNinas = sc.nextInt();
 
-        alumnTotal = numNiños + numNiñas;
+        alumnTotal = numNinos + numNinas;
 
-        porcentajeNiños = (numNiños*100)/alumnTotal;
-        porcentajeNiñas = 100 - porcentajeNiños;
+        porcentajeNinos = (double) (numNinos*100)/alumnTotal;
+        porcentajeNinas = 100 - porcentajeNinos;
         //porcentajeNiñas = (numNiños*100)/alumnTotal;
 
-        System.out.println("El porcentaje de niños es del " + porcentajeNiños+ "%");
-        System.out.println("El porcentaje de niñas es del " + porcentajeNiñas + "%");
+        System.out.println("El porcentaje de niños es del " + porcentajeNinos+ "%");
+        System.out.println("El porcentaje de niñas es del " + porcentajeNinas + "%");
     }
 }
