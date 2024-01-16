@@ -28,5 +28,9 @@ public class Actividad1_11 {
 
         System.out.println("Los ingresos de las Mazanas son de " + ingreManz + "€");
         System.out.println("Los ingresos de las Peras son de " + ingrePer + "€");
+
+        ingreManz += ingrePer;
+
+        System.out.println("Los ingresos totales seran de " + ingreManz + "€");
     }
 }

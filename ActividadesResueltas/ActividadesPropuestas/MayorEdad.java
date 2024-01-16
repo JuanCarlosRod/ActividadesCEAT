@@ -1,21 +1,22 @@
-package Unidad_1;
+package ActividadesPropuestas;
 
 import java.util.Scanner;
 
-public class Actividad1_8 {
+public class MayorEdad {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int edad;
+        boolean mayorEdad;
 
         System.out.print("Introduce tu edad -> ");
         edad = sc.nextInt();
 
-        boolean mayorEdad = edad >= 18;
+        mayorEdad = edad >= 18 ? true : false;
 
         if (mayorEdad){
-            System.out.println( "Eres mayor de edad");
+            System.out.println( "Puedes entrar en la discoteca");
         }else {
-            System.out.println( "Eres menor de edad");
+            System.out.println( "Vete a dormir máquina");
         }
     }
 }

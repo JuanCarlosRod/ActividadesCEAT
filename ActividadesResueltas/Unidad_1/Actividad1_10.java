@@ -18,6 +18,8 @@ public class Actividad1_10 {
 
         salir = !lloviendo && tareas || biblioteca;
 
+        //System.out.println("¿Puede salir a la calle? " + salir);
+
         if (salir) {
             System.out.println("Puedes salir!");
         } else  {
