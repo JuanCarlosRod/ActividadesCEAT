@@ -20,10 +20,10 @@ public class Actividad1_10 {
 
         //System.out.println("¿Puede salir a la calle? " + salir);
 
-        if (salir) {
+        if (salir)
             System.out.println("Puedes salir!");
-        } else  {
+         else
             System.out.println("No se cumplen los requisitos para salir");
-        }
+
     }
 }
