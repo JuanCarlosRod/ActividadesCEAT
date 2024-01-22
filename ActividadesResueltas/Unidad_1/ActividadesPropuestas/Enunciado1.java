@@ -1,4 +1,4 @@
-package ActividadesPropuestas;
+package Unidad_1.ActividadesPropuestas;
 
 import java.util.Scanner;
 

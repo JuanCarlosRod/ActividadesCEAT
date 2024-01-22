@@ -15,6 +15,8 @@ public class Actividad1_19 {
 
         double totalAdul = adulto * entrAdul;
 
+//cambiar sobre el total
+
         if (totalAdul >= 100){
             double destotalAdul = totalAdul * decu;
             totalAdul = totalAdul - decu;

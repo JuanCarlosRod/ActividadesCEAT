@@ -16,7 +16,7 @@ public class Actividad1_17 {
         System.out.print("Introduzca una medida en m -> ");
         m = sc.nextDouble();
 
-        total = (0.1 * mm ) + ctm + (m * 10);
+        total = (0.1 * mm ) + ctm + (m * 100);
 
         System.out.println("La distancia total es : " + total + " centímetros");
     }

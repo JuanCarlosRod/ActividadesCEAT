@@ -1,6 +1,11 @@
-package Unidad2;
+package Unidad2.ActiviPropuestas;
 
 import java.util.Scanner;
+
+/*
+*Análisis: Para ser Par, tenemos que calcular el módulo (%) al número leído
+* y si cumple el resultado == 0, es par si no es impar.
+ */
 
 public class Actividad2_1 {
     public static void main(String[] args) {
