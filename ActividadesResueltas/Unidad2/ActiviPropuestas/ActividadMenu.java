@@ -21,26 +21,26 @@ public class ActividadMenu {
         System.out.print("Introduce una Opción -> ");
         opcion = sc.nextInt();
 
-        System.out.print("Introduce el primer número -> ");
-        num1 = sc.nextDouble();
+        if (opcion >= 1 && opcion <= 4 ){
+            System.out.print("Introduce el primer número -> ");
+            num1 = sc.nextDouble();
 
-        System.out.print("Introduce el segundo número -> ");
-        num2 = sc.nextDouble();
-
-        if (opcion <= 0 || opcion >5){
-            System.out.println("Introduce un valor válido");
-       } else {
-
-            switch (opcion) {
-                case 1 -> resultado = num1 + num2;
-                case 2 -> resultado = num1 - num2;
-                case 3 -> resultado = num1 * num2;
-                case 4 -> resultado = num1 / num2;
-                case 5 -> System.out.println("Saliendo del Menu...");
-            }
-
-            System.out.println("Resultado de la operacion ->" + resultado);
-
+            System.out.print("Introduce el segundo número -> ");
+            num2 = sc.nextDouble();
         }
+
+        switch (opcion) {
+            case 1 -> resultado = num1 + num2;
+            case 2 -> resultado = num1 - num2;
+            case 3 -> resultado = num1 * num2;
+            case 4 -> resultado = num1 / num2;
+            case 5 -> System.out.println("Saliendo del Menu...");
+            default -> System.out.println("Introduce un número válido");
+        }
+
+        if (resultado != 0){
+            System.out.println("Resultado de la operacion ->" + resultado);
+        }
+
     }
 }
