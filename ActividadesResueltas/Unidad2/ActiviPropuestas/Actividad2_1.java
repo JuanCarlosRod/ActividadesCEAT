@@ -9,6 +9,7 @@ import java.util.Scanner;
 
 public class Actividad2_1 {
     public static void main(String[] args) {
+        String respuesta = "";
         Scanner sc = new Scanner(System.in);
         int num;
 
@@ -20,5 +21,6 @@ public class Actividad2_1 {
         }else {
             System.out.println("El número es Impar");
         }
+
     }
 }
