@@ -32,7 +32,7 @@ public class Cine {
         System.out.println("7. SALIR");
         System.out.println("\n****************************");
 
-        do {
+        do { // siempre se ejecuta una vez y despues tantas veces como se cumpla el while
             if ((miercoles!=1 || miercoles!=2) && miercoles!=0){
                 System.err.println("Opción no válida");
             }
@@ -42,7 +42,7 @@ public class Cine {
             System.out.print("Seleccione una opción -> ");
             miercoles = sc.nextByte();
 
-        }while (miercoles<1 || miercoles>2);
+        }while (miercoles<1 || miercoles>2); // mientras esta condicion se cumpla, se repite el do
 
         if (miercoles==1){
             precioAdultos=4.5;
